@@ -1,0 +1,39 @@
+.search {
+  top: 0;
+  left: 0;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.form {
+  display: inline-flex;
+  margin-top: 30px;
+  width: 100%;
+  max-width: 400px;
+  border-radius: 6px;
+  box-shadow: 2px 2px 2px rgb(19, 18, 18);
+}
+
+.input {
+  display: inline-block;
+  width: 100%;
+  font: inherit;
+  font-size: 16px;
+  border: 0;
+  outline: none;
+  padding-left: 10px;
+  padding-right: 4px;
+}
+
+.searchBtn {
+  display: inline-block;
+  width: 68px;
+  height: 48px;
+  border: 0;
+  font-weight: 600;
+
+  cursor: pointer;
+  outline: none;
+}

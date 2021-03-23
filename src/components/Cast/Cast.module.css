@@ -1,0 +1,25 @@
+.title {
+  color: rgb(160, 160, 152);
+  margin-top: 0;
+  font-size: 22px;
+  font-weight: 900;
+}
+.castGallery {
+  margin-top: 3vh;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  overflow: hidden;
+  display: grid;
+  max-width: calc(100vw - 80px);
+  grid-template-columns: repeat(auto-fill, minmax(90px, 1fr));
+  grid-gap: 16px;
+  list-style: none;
+}
+.castItem {
+  padding: 5px;
+  border-radius: 2px;
+}
+.text {
+  color: rgb(109, 109, 100);
+}

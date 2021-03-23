@@ -1,0 +1,37 @@
+.header {
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-right: 24px;
+  padding-left: 24px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: rgba(168, 164, 164, 0.952);
+  box-shadow: 1px 2px 16px;
+}
+
+.link {
+  cursor: pointer;
+  min-width: 80px;
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  padding: 6px;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 3px;
+  background-color: rgba(223, 217, 223, 0.459);
+}
+
+.linkMovie {
+  composes: link;
+  margin-left: 100px;
+}
+
+.link:hover {
+  color: rgb(57, 57, 61);
+}

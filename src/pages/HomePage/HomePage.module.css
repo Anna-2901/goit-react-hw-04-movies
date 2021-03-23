@@ -1,0 +1,6 @@
+.trending {
+  color: rgb(136, 128, 128);
+  justify-content: center;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.15), 0 10px 10px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}

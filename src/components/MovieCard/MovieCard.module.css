@@ -1,0 +1,49 @@
+.detailBox {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  padding: 20px;
+  color: rgba(124, 116, 116, 0.952);
+}
+
+.poster {
+  margin-right: 20px;
+  width: 260px;
+  height: 100%;
+}
+
+.detailBoxContent {
+  display: block;
+  text-align: left;
+  width: 60%;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.detailBoxContent h2 {
+  color: rgba(59, 54, 54, 0.952);
+  margin-top: 0;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.detailList {
+  list-style: none;
+  padding: 0;
+}
+
+.detailList li {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.infoTitle {
+  padding: 0;
+  color: rgba(59, 54, 54, 0.952);
+  flex-basis: 20%;
+}
+
+.text {
+  padding-left: 10px;
+}
